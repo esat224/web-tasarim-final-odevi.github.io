@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arçelik Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #d71920;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .logo img {
+            height: 50px;
+            margin-top: 10px;
+        }
+
+        .logo a, #arcelik {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+            transition: opacity 0.3s;
+        }
+
+        .logo a:hover, #arcelik:hover {
+            opacity: 0.8;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffb300;
+        }
+
+        .blog-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 0 20px;
+        }
+
+        .blog-item {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .blog-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .blog-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .blog-item .content {
+            padding: 20px;
+        }
+
+        .blog-item h3 {
+            margin-top: 0;
+            color: #d71920;
+        }
+
+        .blog-item p {
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="arcelik-main.html"><img src="mstile-144x144.png" alt="Arçelik"></a>
+            <h1 id="arcelik"><a href="arcelik-main.html">Arçelik</a></h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="arcelik-main.html">Anasayfa</a></li>
+            <li><a href="arcelik-kurumsal.html">Kurumsal</a></li>
+            <li><a href="arcelik-blog.html">Blog</a></li>
+            <li><a href="arcelik-magazalar.html">Mağazalar</a></li>
+            <li><a href="arcelik-iletisim.html">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <div class="blog-container">
+        <div class="blog-item">
+            <img src="blender-nasil-secilir-smoothie-n.webp" alt="Blog Resmi">
+            <div class="content">
+                <h3>Yaz Lezzetlerini Hazırlama Vakti: Blender Nasıl Seçilir, Smoothie Nasıl Yapılır</h3>
+                <p>
+                  En iyi blender seçim ipuçları ve en lezzetli smoothie tarifleri Arçelik Blog'da! Mutfakta yaratıcılığınızı konuşturacak smoothie rehberiyle sağlıklı içecekler hazırlayın. Blender</p>
+            </div>
+        </div>
+
+        <div class="blog-item">
+            <img src="hassas-kiyafetler-nasil-yikanir.jpg" alt="Blog Resmi">
+            <div class="content">
+                <h3>Narin Çamaşırlar Nezaket İster: Hassas Kıyafetler Nasıl Yıkanır?</h3>
+                <p>
+                  Narin çamaşırlar nezaket ister. Hassas kumaşları korumak için doğru yıkama yöntemlerini keşfedin. Kapsamlı hassas çamaşır yıkama rehberi Arçelik Blog'da.</p>
+            </div>
+        </div>
+
+        <div class="blog-item">
+            <img src="robot-supurge-almadan-once-dikka.png" alt="Blog Resmi">
+            <div class="content">
+                <h3>Robot Süpürge Almadan Önce Dikkat Edilmesi Gerekenler: Akıllı Temizlik İçin Rehber</h3>
+                <p>
+                  Robot süpürge almadan önce dikkat edilmesi gerekenler: akıllı temizlik için rehber. Kolay kullanım ve bakım sağlayan pratik özellikler için sayfamızı ziyaret edin.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Arçelik. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurumsal - Arçelik</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #d71920;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .logo img {
+            height: 50px;
+            margin-top: 10px;
+        }
+
+        .logo a, #arcelik {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+            transition: opacity 0.3s;
+        }
+
+        .logo a:hover, #arcelik:hover {
+            opacity: 0.8;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffb300;
+        }
+
+        .hero {
+            width: 100%;
+            height: 300px;
+            background-image: url('arcelik_img_1.jpg'); /* Use the correct path to your image */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .main-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section {
+            max-width: 1200px;
+            margin: 20px;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .item {
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .item h2 {
+            color: #d71920;
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+
+        .item p {
+            line-height: 1.4;
+            font-size: 0.9em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="arcelik-main.html"><img src="mstile-144x144.png" alt="Arçelik"></a>
+            <h1 id="arcelik"><a href="arcelik-main.html">Arçelik</a></h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="arcelik-main.html">Anasayfa</a></li>
+            <li><a href="arcelik-kurumsal.html">Kurumsal</a></li>
+            <li><a href="arcelik-blog.html">Blog</a></li>
+            <li><a href="arcelik-magazalar.html">Mağazalar</a></li>
+            <li><a href="arcelik-iletisim.html">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero"></div>
+
+    <div class="main-content">
+        <div class="section">
+            <div class="item">
+                <img src="Sponsorluk-arc.webp" alt="Kurumsal Resim 1"> <!-- Use the correct path to your image -->
+                <h2>Kurumsal Hakkında</h2>
+                <p>Arçelik, yenilikçi teknolojiler ve çevreye duyarlı ürünlerle yaşam kalitesini artırmak için çalışır. Dünyanın dört bir yanında kullanıcıların hayatlarını kolaylaştıran çözümler sunar.</p>
+            </div>
+            <div class="item">
+                <img src="Yatirimci.webp" alt="Kurumsal Resim 2"> <!-- Use the correct path to your image -->
+                <h2>Değerlerimiz</h2>
+                <p>Arçelik olarak, sürdürülebilirlik ve inovasyonu temel değerlerimiz olarak benimsiyoruz. Çevre dostu ürünler ve teknolojilerle geleceğe yatırım yapıyoruz.</p>
+            </div>
+            <div class="item">
+                <img src="arcelikas-image.webp" alt="Kurumsal Resim 3"> <!-- Use the correct path to your image -->
+                <h2>Yatırımcı İlişkileri</h2>
+                <p>Yatırımcılarımızla güçlü ilişkiler kurmak ve sürdürülebilir büyüme sağlamak için sürekli çalışıyoruz. Şeffaf ve hesap verebilir bir yönetim anlayışı ile hareket ediyoruz.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Arçelik. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
